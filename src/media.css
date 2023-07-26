@@ -74,6 +74,15 @@
     .App .landingPageContainer section.captionCardSection .singleCaptionCard {
         margin: 15px 0px;
     }
+    .App {
+        background-image: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.4)
+            ),
+            url("https://res.cloudinary.com/ruthless-labs/image/upload/v1688529408/spacebank/slit5lrgoymw3uolazlp.webp");
+    }
 }
 @media (max-width: 425.5px) {
     .App .landingPageContainer section.landingPageHeader {

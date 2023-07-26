@@ -54,10 +54,10 @@ const PublicLayout: React.FC<PublicProps> = ({ children, pageTitle }) => {
                     },
                     particles: {
                         number: {
-                            value: 180,
+                            value: 150,
                             density: {
                                 enable: true,
-                                value_area: 800,
+                                value_area: 700,
                             },
                         },
                         color: {
