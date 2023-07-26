@@ -1,24 +1,24 @@
 import CreditCardIcon from "../icons/CreditCardIcon";
 import ToAndFroIcon from "../icons/ToAndFroIcon";
-import UserIcon from "../icons/UserIcon";
+import RotateIcon from "../icons/RotateIcon";
 
 export const cardList = [
     {
-        title: "Checking Accounts",
+        title: "SEND AND RECIEVE",
         description:
-            "Our Checking Account is the perfect solution for mananging your day-to-day financial transactions",
-        icon: <UserIcon />,
+            "At SpaceBank, we make it easy for you to send and receive funds to anyone, anywhere in the world",
+        icon: <ToAndFroIcon />,
     },
     {
-        title: "Credit & Debit Cards",
+        title: "PAYMENT OF UTILITIES",
         description:
-            "Welcome to our Credit & Debit Cards section! Whether you need the convenience of a credit card",
+            "Pay for everyday expenses hassle-free using cryptocurrency for airtime, electricity, cable, internet subscriptions, and more",
         icon: <CreditCardIcon />,
     },
     {
-        title: "Manage Transactions",
+        title: "CURRENCY SWAPPING",
         description:
-            "With Manage Transactions, you can easily view, organize, and track all incoming and outgoing payments.",
-        icon: <ToAndFroIcon />,
+            "Effortlessly swap cryptocurrencies within your SpaceBank account using our cutting-edge technology",
+        icon: <RotateIcon />,
     },
 ];
