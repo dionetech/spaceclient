@@ -47,7 +47,7 @@ const LandingPage = () => {
 
                     <div>
                         <h1 className="headerTitle">
-                            The Future is Space Banking
+                            The Future is <span>Space Banking</span>
                         </h1>
                         <div className="subTitleComponent">
                             <p className="headerSubTitle">
