@@ -57,6 +57,16 @@ img {
     animation: spin-animation 0.7s infinite linear;
 }
 
+.App {
+    background-image: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("https://res.cloudinary.com/ruthless-labs/image/upload/v1688529408/spacebank/slit5lrgoymw3uolazlp.webp");
+}
+
 /* Navbar CSS Style */
 .customNavbar {
     border: none;
@@ -146,7 +156,7 @@ img {
     align-items: center;
     justify-content: center;
     width: 380px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #111111;
     padding: 10px;
     border-radius: 15px;
 }
@@ -306,11 +316,7 @@ img {
 }
 .App .landingPageContainer section.captionCardSection .singleCaptionCard:hover {
     background: rgb(51, 51, 51);
-    background: linear-gradient(
-        0deg,
-        rgba(17, 17, 17, 1) 0%,
-        rgba(51, 51, 51, 1) 100%
-    );
+    background: linear-gradient(0deg, rgba(17, 17, 17, 1) 0%, #222222 100%);
 }
 .App
     .landingPageContainer
@@ -408,46 +414,6 @@ img {
     line-height: 21px;
     margin: 0px;
     padding: 10px 0px;
-}
-.App .landingPageContainer section.infoSection {
-    padding: 100px 250px;
-}
-.App .landingPageContainer section.infoSection .imageDiv {
-    display: flex;
-    justify-content: flex-start;
-}
-.App .landingPageContainer section.infoSection .imageDiv img {
-    width: 270px;
-    height: 330px;
-    object-fit: cover !important;
-    object-position: top !important;
-    border-radius: 20px;
-}
-.App .landingPageContainer section.infoSection .content {
-    border: none;
-    padding: 5px 0px;
-}
-.App .landingPageContainer section.infoSection .content h4 {
-    font-size: 23px;
-    margin: 0px;
-    font-family: var(--inter);
-    font-weight: 600 !important;
-    letter-spacing: -0.2px;
-    color: var(--white);
-    line-height: 28px;
-    padding: 10px 0px;
-}
-.App .landingPageContainer section.infoSection .content h4 span {
-    display: block;
-}
-.App .landingPageContainer section.infoSection .content p {
-    font-size: 14px;
-    font-family: var(--inter);
-    font-weight: 400 !important;
-    letter-spacing: -0.2px;
-    padding: 15px 0px;
-    margin: 0px;
-    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Animation CSS */
