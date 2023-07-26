@@ -87,6 +87,18 @@ img {
     letter-spacing: -0.3px;
     padding: 10px 20px;
 }
+.customNavbar ul li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #111111;
+}
+.customNavbar ul li.title a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 /* LandingPage CSS Style */
 .App .landingPageContainer {
@@ -233,6 +245,7 @@ img {
     cursor: pointer;
     border-radius: 8px;
     width: 140px;
+    color: var(--black);
     background: #83a4d4; /* fallback for old browsers */
     background: -webkit-linear-gradient(
         to right,
@@ -251,7 +264,7 @@ img {
     .waitlistFormContent
     .inputDiv
     button[type="submit"]:disabled {
-    color: var(--white);
+    color: var(--black);
     background-color: rgba(255, 255, 255, 0.1);
     cursor: no-drop;
 }
@@ -335,7 +348,6 @@ img {
         rgba(17, 17, 17, 1) 0%,
         rgba(17, 17, 17, 1) 100%
     );
-    transition: 0.3s all ease-in-out;
     margin: 10px 0px;
 }
 .App .landingPageContainer section.captionCardSection .singleCaptionCard:hover {

@@ -5,6 +5,7 @@ import EmailIcon from "../icons/EmailIcon";
 import axios from "axios";
 import { errorToast, successToast } from "../config";
 import { cardList } from "../data/cardList";
+import { AnimatePresence, motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 
 const LandingPage = () => {
@@ -105,15 +106,23 @@ const LandingPage = () => {
                         {cardList.map((card, index) => {
                             return (
                                 <div className="col-md-4 col-sm-6" key={index}>
-                                    <div className="singleCaptionCard">
-                                        <div className="header">
-                                            <span>{card.icon}</span>
-                                        </div>
-                                        <div className="content">
-                                            <h2>{card.title}</h2>
-                                            <p>{card.description}.</p>
-                                        </div>
-                                    </div>
+                                    <AnimatePresence>
+                                        <motion.div
+                                            whileHover={{
+                                                scale: 1.2,
+                                                transition: { duration: 0.3 },
+                                            }}
+                                            className="singleCaptionCard"
+                                        >
+                                            <div className="header">
+                                                <span>{card.icon}</span>
+                                            </div>
+                                            <div className="content">
+                                                <h2>{card.title}</h2>
+                                                <p>{card.description}.</p>
+                                            </div>
+                                        </motion.div>
+                                    </AnimatePresence>
                                 </div>
                             );
                         })}
