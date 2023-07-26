@@ -1,0 +1,492 @@
+:root {
+    --accent-color: #0052ff;
+    --accent-hover: #0052ff33;
+    --accent-transparent: #5d26c133;
+    --dark-blue: #000010;
+    --dim-blue: #010025;
+    --dark-black: #0a0a0a;
+    --black: #000000;
+    --white: #ffffff;
+    --milk: #f5f6f7;
+    --syne: "Syne", sans-serif;
+    --inter: "Inter", sans-serif;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --dark-slate: #495670;
+    --dark-purple: #7f00ff;
+    --custom-green: #45a247;
+    --custom-red: red;
+}
+
+body {
+    background-color: var(--black) !important;
+    overflow-x: hidden !important;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    user-zoom: none !important;
+    -webkit-user-zoom: none !important;
+    -moz-user-zoom: none !important;
+    -moz-touch-callout: none !important;
+    -webkit-touch-callout: none !important;
+    scroll-behavior: smooth !important;
+    font-family: var(--inter);
+    color: var(--white);
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+a {
+    text-decoration: none !important;
+    -moz-touch-callout: none !important;
+    -webkit-touch-callout: none !important;
+}
+img {
+    object-fit: cover !important;
+    object-position: center !important;
+}
+.Toastify .Toastify__toast-body {
+    font-family: var(--inter) !important;
+    font-weight: 600 !important;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+}
+.spin svg {
+    -webkit-animation: spin-animation 0.7s infinite linear;
+    animation: spin-animation 0.7s infinite linear;
+}
+
+/* Navbar CSS Style */
+.customNavbar {
+    border: none;
+}
+.customNavbar ul {
+    list-style: none;
+    padding: 20px 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customNavbar ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.customNavbar ul li a {
+    font-size: 12px;
+    color: var(--white);
+    font-weight: 500 !important;
+    letter-spacing: -0.3px;
+    padding: 10px 20px;
+}
+
+/* LandingPage CSS Style */
+.App .landingPageContainer {
+    padding: 15px;
+    overflow-x: hidden !important;
+}
+.App .landingPageContainer section.landingPageHeader {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.App .landingPageContainer section.landingPageHeader h1.headerTitle {
+    text-align: center;
+    margin: 0px;
+    font-family: var(--inter);
+    font-weight: 700 !important;
+    letter-spacing: -1px;
+    font-size: 38px;
+    padding: 15px;
+}
+.App .landingPageContainer section.landingPageHeader .subTitleComponent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .subTitleComponent
+    p.headerSubTitle {
+    text-align: center;
+    margin: 0px;
+    font-family: var(--inter);
+    font-weight: 400 !important;
+    letter-spacing: -0.1px;
+    font-size: 14px;
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 410px;
+}
+
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .subTitleComponent
+    p.headerSubTitle
+    strong {
+    font-weight: 500 !important;
+    letter-spacing: -0.3px;
+    color: var(--white);
+}
+
+.App .landingPageContainer section.landingPageHeader .waitlistFormContent {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 15px;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    input {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0px;
+    font-size: 11px;
+    height: 50px;
+    letter-spacing: -0.4px;
+    font-weight: 500 !important;
+    padding-left: 5px;
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button {
+    white-space: pre;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0px;
+    font-size: 11px;
+    height: 41px;
+    padding: 0px 5px;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button[type="submit"] {
+    letter-spacing: -0.3px;
+    font-weight: 600 !important;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 140px;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button[type="submit"]:disabled {
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: no-drop;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button[type="button"] {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.8);
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button[type="button"]
+    svg {
+    width: 15px;
+    height: 15px;
+    margin-top: -0.5px;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .waitlistFormContent
+    .inputDiv
+    button[type="button"]
+    svg
+    path.useFill {
+    fill: var(--white);
+    fill-opacity: 1;
+}
+.App .landingPageContainer section.landingPageHeader p.headerCaption {
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-family: var(--inter);
+    font-weight: 400 !important;
+    font-size: 12px;
+    letter-spacing: -0.4px;
+}
+
+.App .landingPageContainer section.landingPageHeader .headerImageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .headerImageDiv:last-child {
+    justify-content: flex-end;
+}
+.App .landingPageContainer section.landingPageHeader .headerImageDiv img {
+    width: 220px;
+    height: 220px;
+    transition: 0.4s all ease-in-out;
+    filter: drop-shadow(4px 12px 19px rgba(226, 225, 230, 0.2));
+    animation: MoveUpDown 10s linear infinite;
+}
+.App
+    .landingPageContainer
+    section.landingPageHeader
+    .headerImageDiv:last-child
+    img {
+    animation: MoveDownUp 10s linear infinite;
+}
+
+.App .landingPageContainer section.captionCardSection {
+    padding: 100px 140px;
+}
+.App .landingPageContainer section.captionCardSection .singleCaptionCard {
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgb(51, 51, 51);
+    background: linear-gradient(
+        0deg,
+        rgba(17, 17, 17, 1) 0%,
+        rgba(17, 17, 17, 1) 100%
+    );
+    transition: 0.3s all ease-in-out;
+    margin: 10px 0px;
+}
+.App .landingPageContainer section.captionCardSection .singleCaptionCard:hover {
+    background: rgb(51, 51, 51);
+    background: linear-gradient(
+        0deg,
+        rgba(17, 17, 17, 1) 0%,
+        rgba(51, 51, 51, 1) 100%
+    );
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .header {
+    display: flex;
+    justify-content: center;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .header
+    span {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(51, 51, 51);
+    background: linear-gradient(
+        0deg,
+        rgba(51, 51, 51, 1) 0%,
+        rgba(17, 17, 17, 1) 100%
+    );
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .header
+    span
+    svg {
+    width: 18px;
+    height: 18px;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .header
+    span
+    svg
+    path.useFill {
+    fill: rgba(255, 255, 255, 0.9);
+    fill-opacity: 1;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .header
+    span
+    svg
+    path.useStroke {
+    stroke: rgba(255, 255, 255, 0.9);
+    stroke-opacity: 1;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .content {
+    border: none;
+    margin-top: 15px;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .content
+    h2 {
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--inter);
+    font-weight: 600 !important;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+}
+.App
+    .landingPageContainer
+    section.captionCardSection
+    .singleCaptionCard
+    .content
+    p {
+    font-size: 12px;
+    font-family: var(--inter);
+    font-weight: 400 !important;
+    letter-spacing: -0.2px;
+    text-align: center;
+    line-height: 21px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.App .landingPageContainer section.infoSection {
+    padding: 100px 250px;
+}
+.App .landingPageContainer section.infoSection .imageDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+.App .landingPageContainer section.infoSection .imageDiv img {
+    width: 270px;
+    height: 330px;
+    object-fit: cover !important;
+    object-position: top !important;
+    border-radius: 20px;
+}
+.App .landingPageContainer section.infoSection .content {
+    border: none;
+    padding: 5px 0px;
+}
+.App .landingPageContainer section.infoSection .content h4 {
+    font-size: 23px;
+    margin: 0px;
+    font-family: var(--inter);
+    font-weight: 600 !important;
+    letter-spacing: -0.2px;
+    color: var(--white);
+    line-height: 28px;
+    padding: 10px 0px;
+}
+.App .landingPageContainer section.infoSection .content h4 span {
+    display: block;
+}
+.App .landingPageContainer section.infoSection .content p {
+    font-size: 14px;
+    font-family: var(--inter);
+    font-weight: 400 !important;
+    letter-spacing: -0.2px;
+    padding: 15px 0px;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Animation CSS */
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+@keyframes MoveDownUp {
+    0%,
+    100% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes spin-animation {
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    0% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin-animation {
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    0% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}

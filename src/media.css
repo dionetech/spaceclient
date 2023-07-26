@@ -1,0 +1,151 @@
+@media (max-width: 1100.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px 30px;
+    }
+    .App .landingPageContainer section.captionCardSection {
+        padding: 100px 90px;
+    }
+}
+
+@media (max-width: 1060.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px 10px;
+    }
+}
+@media (max-width: 991.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .App .landingPageContainer section.landingPageHeader .headerImageDiv {
+        display: none;
+    }
+    .App .landingPageContainer section.captionCardSection {
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 991.5px) {
+    .App .landingPageContainer section.captionCardSection {
+        padding: 100px 30px;
+    }
+    .App .landingPageContainer section.captionCardSection .singleCaptionCard {
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+}
+@media (max-width: 767.5px) {
+    .customNavbar ul {
+        padding: 15px 10px;
+    }
+    .customNavbar ul li a {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 630.5px) {
+    .App .landingPageContainer section.landingPageHeader h1.headerTitle {
+        font-size: 35px;
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 575.5px) {
+    .customNavbar ul li.navigation {
+        display: none;
+    }
+    .customNavbar ul li.auth {
+        display: none;
+    }
+    .App .landingPageContainer {
+        padding: 5px 15px;
+    }
+    .App .landingPageContainer section.landingPageHeader h1.headerTitle {
+        font-size: 32px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .subTitleComponent
+        p.headerSubTitle {
+        font-size: 13px;
+        padding: 10px 40px;
+    }
+    .App .landingPageContainer section.captionCardSection .singleCaptionCard {
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 425.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .waitlistFormContent
+        .inputDiv {
+        width: 350px;
+    }
+    .App .landingPageContainer section.landingPageHeader h1.headerTitle {
+        font-size: 30px;
+        padding: 5px 30px;
+    }
+    .App .landingPageContainer section.captionCardSection {
+        padding: 70px 20px;
+    }
+}
+
+@media (max-width: 390.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .waitlistFormContent
+        .inputDiv {
+        width: 330px;
+    }
+    .App .landingPageContainer section.landingPageHeader h1.headerTitle {
+        font-size: 30px;
+        padding: 5px 30px;
+    }
+    .App .landingPageContainer section.captionCardSection {
+        padding: 50px 15px;
+    }
+}
+
+@media (max-width: 360.5px) {
+    .App .landingPageContainer section.landingPageHeader {
+        padding: 20px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .waitlistFormContent
+        .inputDiv {
+        width: 300px;
+    }
+    .App .landingPageContainer section.landingPageHeader h1.headerTitle {
+        font-size: 25px;
+        padding: 5px 50px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .subTitleComponent
+        p.headerSubTitle {
+        font-size: 12px;
+        padding: 10px 60px;
+    }
+    .App .landingPageContainer section.captionCardSection {
+        padding: 20px 15px;
+    }
+    .App
+        .landingPageContainer
+        section.landingPageHeader
+        .waitlistFormContent
+        .inputDiv {
+        padding: 5px 10px;
+    }
+}
