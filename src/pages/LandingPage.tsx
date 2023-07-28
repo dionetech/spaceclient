@@ -52,7 +52,7 @@ const LandingPage = () => {
                         </h1>
                         <div className="subTitleComponent">
                             <p className="headerSubTitle">
-                                Explore the Boundless Possibilities of
+                                Explore the Borderless Possibilities of
                                 Spacebank:{" "}
                                 <strong>
                                     Your Gateway to Multi-Planetary Transaction

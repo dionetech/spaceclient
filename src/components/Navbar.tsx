@@ -5,15 +5,17 @@ const Navbar = () => {
         <nav className="customNavbar">
             <ul>
                 <li className="title">
-                    <a href="mailto:hello@myspacebank.com" target="_blank">
+                    <a href="/">
                         <img
-                            src="https://res.cloudinary.com/ruthless-labs/image/upload/v1690543592/spacebank/qxmlblvgeaph7oroaiv8.png"
+                            src="https://res.cloudinary.com/ruthless-labs/image/upload/v1690543987/spacebank/ba7obfbxcfbrkorj2gcp_6bad1c2.png"
                             alt="spacebank icon"
                         />
-                        hello@myspacebank.com
                     </a>
                 </li>
-                <li className="navigation">
+{/*                <li className="navigation">
+                    <a href="mailto:hello@myspacebank.com" target="_blank">hello@myspacebank.com</a>
+                </li>*/}
+{/*                <li className="navigation">
                     <a href="https://blog.myspacebank.com">Blog</a>
                     <Link to="/company">Company</Link>
                     <Link to="/about">About</Link>
@@ -28,7 +30,7 @@ const Navbar = () => {
                     >
                         Get Started
                     </a>
-                </li>
+                </li>*/}
             </ul>
         </nav>
     );
