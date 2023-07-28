@@ -7,7 +7,7 @@ const Navbar = () => {
                 <li className="title">
                     <a href="mailto:hello@myspacebank.com" target="_blank">
                         <img
-                            src="https://res.cloudinary.com/ruthless-labs/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,b_rgb:262c35/v1689413971/spacebank/akor4x7v0capmouofcrr.png"
+                            src="https://res.cloudinary.com/ruthless-labs/image/upload/v1690543592/spacebank/qxmlblvgeaph7oroaiv8.png"
                             alt="spacebank icon"
                         />
                         hello@myspacebank.com
