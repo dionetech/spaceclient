@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <nav className="customNavbar">
             <ul>
                 <li className="title">
-                    <a href="/">
+                    <a href="mailto:hello@myspacebank.com" target="_blank">
                         <img
                             src="https://res.cloudinary.com/ruthless-labs/image/upload/v1690543987/spacebank/ba7obfbxcfbrkorj2gcp_6bad1c2.png"
                             alt="spacebank icon"
