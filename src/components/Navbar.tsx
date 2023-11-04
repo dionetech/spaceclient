@@ -4,6 +4,11 @@ const Navbar = () => {
     return (
         <nav className="customNavbar">
             <ul>
+                <li className="business">
+                    <a href="https://business.myspacebank.com/" target="_blank">
+                        Business
+                    </a>
+                </li>
                 <li className="title">
                     <a href="mailto:hello@myspacebank.com" target="_blank">
                         <img
@@ -12,10 +17,15 @@ const Navbar = () => {
                         />
                     </a>
                 </li>
-{/*                <li className="navigation">
+                <li className="customer">
+                    <a href="https://app.myspacebank.com/" target="_blank">
+                        Customer
+                    </a>
+                </li>
+                {/*                <li className="navigation">
                     <a href="mailto:hello@myspacebank.com" target="_blank">hello@myspacebank.com</a>
                 </li>*/}
-{/*                <li className="navigation">
+                {/*                <li className="navigation">
                     <a href="https://blog.myspacebank.com">Blog</a>
                     <Link to="/company">Company</Link>
                     <Link to="/about">About</Link>

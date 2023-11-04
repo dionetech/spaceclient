@@ -69,10 +69,10 @@ img {
 }
 .customNavbar ul {
     list-style: none;
-    padding: 10px 30px;
+    padding: 10px 50px;
     margin: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .customNavbar ul li {
@@ -81,12 +81,24 @@ img {
     justify-content: space-between;
 }
 .customNavbar ul li a {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--white);
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     letter-spacing: -0.3px;
     padding: 0px;
     padding: 0px;
+    text-transform: uppercase;
+    font-family: var(--inter);
+    font-weight: 500 !important;
+    letter-spacing: 0.3px;
+}
+.customNavbar a.business:first-child {
+    border: 1px solid red;
+    color: var(--accent-color);
+}
+.customNavbar a.customer:first-child {
+    border: 1px solid red;
+    color: var(--accent-color);
 }
 .customNavbar ul li a img {
     width: 160px;
